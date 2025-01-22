@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(128, 128, 128, 0.1); /* Semi-grey background */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the body is at least as tall as the viewport */
+}
+
+.custom-bg {
+    background-color: rgba(128, 128, 128, 0.1); /* Semi-grey background */
+}
+
+.container {
+    flex: 1; /* Ensures the main content takes up available space */
+}
+
+footer {
+    margin-top: auto; /* Pushes the footer to the bottom of the page */
+    background-color: #333; /* Dark background for footer */
+    color: white;
+    padding: 1rem 0;
+    width: 100%;
+}
