@@ -26,3 +26,12 @@ footer {
     padding: 1rem 0;
     width: 100%;
 }
+.python-blue {
+    background-color: #4B8BBE !important;
+    color: white; /* Ensure text is readable */
+}
+
+.python-yellow {
+    background-color: #FFD43B !important;
+    color: black; /* Ensure text is readable */
+}
