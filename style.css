@@ -6,43 +6,33 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: rgba(128, 128, 128, 0.1);
-  /* Semi-grey background */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  /* Ensures the body is at least as tall as the viewport */
 }
 
 .custom-bg {
   background-color: rgba(128, 128, 128, 0.1);
-  /* Semi-grey background */
 }
 
 .container {
   flex: 1;
-  /* Ensures the main content takes up available space */
 }
 
 footer {
   margin-top: auto;
-  /* Pushes the footer to the bottom of the page */
   background-color: #333;
-  /* Dark background for footer */
   color: white;
   padding: 1rem 0;
   width: 100%;
 }
 
-.python-blue {
-  background-color: #4B8BBE !important;
-  color: white;
-  /* Ensure text is readable */
+.python-logo-blue-bg {
+  background-color: rgb(48, 105, 152) !important;
 }
 
-.python-yellow {
-  background-color: #FFD43B !important;
-  color: black;
-  /* Ensure text is readable */
+.python-logo-yellow-bg {
+  background-color: rgb(255, 212, 59) !important;
 }
 
 .dark-blue {
