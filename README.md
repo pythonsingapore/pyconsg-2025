@@ -10,13 +10,13 @@ Poor man static site generator...
 
 For example `index.html`
 - edit `src/index.html`
-- `./build.sh`
+- `./build.sh` / `./build.py`
 
 ## Adding new pages
 
 For example `foobar.html`
 - `touch src/foobar.html`
 - edit `src/foobar.html`
-- add `foobar.html` to `PAGES` in `build.sh`
-- `./build.sh`
+- add `foobar.html` to `PAGES` in `build.sh` and `build.py`
+- `./build.sh` / `./build.py`
 
