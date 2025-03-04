@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PAGES=('index.html' 'archive.html' 'sponsor.html' 'team.html')
+PAGES=('index.html' 'archive.html' 'sponsor.html' 'team.html' 'edusummit.html')
 
 echo "Regenerating pages..."
 cd src/
