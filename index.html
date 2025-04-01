@@ -58,8 +58,7 @@
       <div class="col-md-4">
         <div class="python-logo-blue-bg text-white text-center border border-secondary-50 rounded p-3">
           <h1>Ticket Sales</h1>
-            <noscript><a href="https://www.eventbrite.sg/e/pycon-singapore-2025-tickets-1307773057419" rel="noopener noreferrer" target="_blank">Buy Tickets on Eventbrite</a></noscript>
-            <button id="eventbrite-widget-modal-trigger-1307773057419" type="button" class="btn btn-primary mt-2">Buy Tickets</button>
+            <a href="https://www.eventbrite.sg/e/pycon-singapore-2025-tickets-1307773057419"><button class="btn btn-primary mt-2">Buy Tickets</button></a>
         </div>
       </div>
       <div class="col-md-8">
@@ -99,22 +98,6 @@
       </div>
     </div>
   </div>
-   <!-- Eventbrite Scripts -->
-   <script src="https://www.eventbrite.sg/static/widgets/eb_widgets.js"></script>
-   <script type="text/javascript">
-     var exampleCallback = function() {
-         console.log('Order complete!');
-     };
- 
-     window.EBWidgets.createWidget({
-         widgetType: 'checkout',
-         eventId: '1307773057419',
-         promoCode: '',
-         modal: true,
-         modalTriggerElementId: 'eventbrite-widget-modal-trigger-1307773057419',
-         onOrderComplete: exampleCallback
-     });
-   </script>
   <footer class="bg-dark text-white py-4">
     <div class="container">
       <div class="row">
