@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" type="image/x-icon" href="static/pyconsg2025logo.png" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>PyCon SG 2025</title>
+  <meta name="format-detection" content="telephone=no"> <!-- to prevent Safari automatic detection and linking phone numbers -->
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg border rounded">
+    <div class="container custom-bg">
+      <!-- Left Section: Logo and Text -->
+      <a class="navbar-brand d-flex align-items-center" href="./index.html">
+        <img src="static/pyconsg2025logo.png" alt="Python Logo" height="50" class="me-2 ms-2" />
+        <span class="fw-semibold">PyCon SG 2025</span>
+      </a>
+
+      <!-- Toggler for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Right Section: Navigation Links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./directions.html">Directions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./schedule.html">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./speakers.html">Speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sponsor.html">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./archive.html">Archive</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<h1 class="text-center fw-semibold mt-4 mb-4">Food Options</h1>
+    <ul class="nav nav-pills nav-fill mb-4" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-sit-tab" data-bs-toggle="pill" data-bs-target="#pills-sit" type="button" role="tab" aria-controls="pills-sit" aria-selected="true">SIT Food Courts</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-mall-tab" data-bs-toggle="pill" data-bs-target="#pills-mall" type="button" role="tab" aria-controls="pills-mall" aria-selected="false">Punggol Coast Mall</button>
+        </li>
+    </ul>
+    <!-- Tab Content Panes -->
+    <div class="tab-content" id="pills-tabContent">
+        <!-- SIT Food Courts Content Pane (Active by default) -->
+        <div class="tab-pane fade show active" id="pills-sit" role="tabpanel" aria-labelledby="pills-sit-tab" tabindex="0">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">Opening Hours</th>
+                            <th scope="col">Website</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Foodgle Hub</td>
+                            <td>SIT Campus Court, Block E4</td>
+                            <td>Monday to Friday: 7:30 AM to 7:30 PM<br>Saturday, Sunday & Public Holidays: 8:30 AM to 7:30 PM</td>
+                            <td><a href="https://www.singaporetech.edu.sg/about/punggol-campus/food-beverages-listing" target="_blank">SIT Food Listing</a></td>
+                        </tr>
+                        <tr>
+                            <td>Wholesome</td>
+                            <td>SIT Campus Heart, Block W3 Level 2</td>
+                            <td>Monday to Friday: 7:30 AM to 7:30 PM<br>Saturday, Sunday & Public Holidays: 8:30 AM to 7:30 PM</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- Punggol Coast Mall Content Pane -->
+        <div class="tab-pane fade" id="pills-mall" role="tabpanel" aria-labelledby="pills-mall-tab" tabindex="0">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Eatery</th>
+                            <th scope="col">Type</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">Opening Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Astons</td>
+                            <td>Western</td>
+                            <td>#02-118</td>
+                            <td>11:30 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Breadtalk</td>
+                            <td>Pastry and Buns</td>
+                            <td>#01-121</td>
+                            <td>7:30 AM to 9:30 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Burger King</td>
+                            <td>Fast food</td>
+                            <td>#02-119</td>
+                            <td>8:00 AM to 12:00 AM</td>
+                        </tr>
+                        <tr>
+                            <td>Din Tai Fung</td>
+                            <td>Chinese</td>
+                            <td>#01-126/127</td>
+                            <td>11:30 AM to 9:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Fun Toast</td>
+                            <td>Local Café / Toast</td>
+                            <td>#01-132</td>
+                            <td>7:30 AM to 8:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Grains & Co x Kopitellus</td>
+                            <td>Local Café / Toast</td>
+                            <td>#02-133</td>
+                            <td>8:00 AM to 6:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Ha-Jun Korean</td>
+                            <td>Korean</td>
+                            <td>#B2-42</td>
+                            <td>9:00 AM to 9:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Hockhua Tonic</td>
+                            <td>Herbal drinks</td>
+                            <td>#01-82/83</td>
+                            <td>10:00 AM to 9:30 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Hokkaido-ya</td>
+                            <td>Japanese casual</td>
+                            <td>#01-116</td>
+                            <td>11:30 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Jollibee</td>
+                            <td>Fried chicken</td>
+                            <td>#01-118</td>
+                            <td>10:00 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>KOI Thé</td>
+                            <td>Drinks</td>
+                            <td>#01-85</td>
+                            <td>11:00 AM to 11:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>LeNu Chef Wai's Noodle Bar</td>
+                            <td>Chinese</td>
+                            <td>#01-51</td>
+                            <td>11:00 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Luckin Coffee</td>
+                            <td>Coffee</td>
+                            <td>#02-118</td>
+                            <td>10:00 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Mr Coconut</td>
+                            <td>Drinks</td>
+                            <td>#02-130</td>
+                            <td>10:30 AM to 9:30 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Muji Cafe</td>
+                            <td>Japanese western</td>
+                            <td>#01-53/54/55</td>
+                            <td>11:00 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Nayana K-Pop Cafe & Restaurant</td>
+                            <td>Korean</td>
+                            <td>#01-38</td>
+                            <td>11:00 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Paradise Classic</td>
+                            <td>Chinese</td>
+                            <td>#01-52</td>
+                            <td>11:00 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Paradise Hotpot</td>
+                            <td>Chinese</td>
+                            <td>#02-120</td>
+                            <td>11:30 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Playmade</td>
+                            <td>Drinks</td>
+                            <td>#B1-K6</td>
+                            <td>11:00 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Shilin Taiwan Street Snacks</td>
+                            <td>Fried Chicken</td>
+                            <td>#02-125</td>
+                            <td>11:30 AM to 9:15 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Starbucks</td>
+                            <td>Café</td>
+                            <td>#01-116</td>
+                            <td>7:00 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Subway</td>
+                            <td>Fast food</td>
+                            <td>#01-84</td>
+                            <td>7:00 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sukiya</td>
+                            <td>Japanese</td>
+                            <td>#01-86/87</td>
+                            <td>8:00 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sushi Tei</td>
+                            <td>Japanese</td>
+                            <td>#01-123</td>
+                            <td>11:30 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sushi-GO</td>
+                            <td>Japanese</td>
+                            <td>#02-116/117</td>
+                            <td>11:30 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Swee Heng 1989</td>
+                            <td>Pastry and Buns</td>
+                            <td>#B1-04</td>
+                            <td>8:00 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>The Seer Scoop</td>
+                            <td>Gelato Café and Waffles</td>
+                            <td>#02-124</td>
+                            <td>8:00 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>White Cloud Cafe</td>
+                            <td>Café</td>
+                            <td>#01-A</td>
+                            <td>11:00 AM to 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Ya Kun Kaya Toast</td>
+                            <td>Local Café / Toast</td>
+                            <td>#02-53</td>
+                            <td>8:00 AM to 9:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Yi Fang Taiwan Fruit Tea</td>
+                            <td>Drinks</td>
+                            <td>#02-132</td>
+                            <td>10:30 AM to 10:30 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section><body>
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <!-- About Section -->
+        <div class="col-md-4">
+          <h5>About</h5>
+          <p>PyConSG 2025 is a conference organised and driven by <a href="https://pugs.org.sg/" target="_blank" class="fw-semibold text-white">Python User Group Singapore (PUGS)</a>, Singapore Institute of Technology (SIT) and <a href="https://pyladies.sg" target="_blank" class="fw-semibold text-white">PyLadies Singapore</a>.
+            Meet the organising team <a href="team.html" class="fw-semibold text-white">here!</a>. </br> All attendees must strictly adhere to the <a href="./coc.html" class="fw-semibold text-white"> code of conduct </a> during the conference.
+          </p>
+          <p>Join our meetup community
+            <a href="https://www.meetup.com/singapore-python-user-group/" class="text-white fw-semibold">here!</a>
+          </p>
+        </div>
+        <!-- When & Where Section -->
+        <div class="col-md-4">
+          <h5>When & Where</h5>
+          <p>
+            <strong>When:</strong><br />18th June 2025 - 20th June 2025
+          </p>
+          <p><strong>Where:</strong><br /><a href="https://maps.app.goo.gl/dMfsxTNHCfqyBdD8A" class="text-white fw-semibold">Singapore Institute of Technology (Punggol Campus)</a></p>
+        </div>
+        <!-- Get Social Section -->
+        <div class="col-md-4">
+          <h5>Social Media:</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://www.linkedin.com/company/python-user-group-singapore/"
+                class="text-white text-decoration-none">
+                <i class="fab fa-linkedin me-2"></i>Linkedin
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/groups/pythonsg/" class="text-white text-decoration-none">
+                <i class="fab fa-facebook me-2"></i>Facebook
+              </a>
+            </li>
+            <li>
+              <a href="https://groups.google.com/forum/#%21forum/pythonsg" class="text-white text-decoration-none">
+                <i class="fas fa-envelope me-2"></i>Mailing List
+              </a>
+            </li>
+            <li>
+              <a href="mailto:pyconsg@computing.sg" class="text-white text-decoration-none">
+                <i class="fas fa-at me-2"></i>Email
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- New Row for Organisers Section -->
+      <div class="row mt-4">
+        <div class="col-md-12 text-center">
+          <h5>Organisers:</h5>
+          <div class="d-flex justify-content-center align-items-center">
+            <a href="https://pugs.org.sg/"><img src="static/pugslogo.png" alt="PUGS logo" class="img-fluid me-3" style="max-height: 80px; width: auto;"></a>
+            <img src="static/sitlogo.png" alt="SIT logo" class="img-fluid me-3" style="max-height: 80px; width: auto;">
+            <a href="https://pyladies.sg"><img src="static/PyLadies_Logo_WhiteText.svg" alt="PyLadies logo" class="img-fluid" style="max-height: 40px; width: auto;"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+
