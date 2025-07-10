@@ -38,3 +38,13 @@ footer {
 .dark-blue {
   color: rgb(0, 0, 128)
 }
+
+#edusummit-schedule tr:nth-child(odd) > td
+{
+    background-color: #eeeeee !important;
+}
+
+#edusummit-schedule tr:nth-child(odd) > td:first-child
+{
+    background-color: #e4e4e4 !important;
+}
